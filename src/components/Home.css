@@ -1,0 +1,275 @@
+.hme{
+    /* background-image: "Rectangle 2.pngRectangle 2.pngRectangle 2.png"; */
+    background: url("../Rectangle 2.png") no-repeat ;
+    height: 400px;
+    width: 100%;
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+}
+.inputhome{
+    /* border: 2px solid blue; */
+    width: 50%;
+    height: 300px;
+}
+.inputhome>h1{
+    position: relative;
+    top: 90%;
+    left: 32%;
+    color: aliceblue;
+    font-size: 28px;
+}
+.fixed{
+    position: fixed;
+}
+.inputhome>p{
+    position: relative;
+    top: 88%;
+    left: 32%;
+    color: aliceblue;
+    font-size: 14px;
+}
+.navbarhme{
+    display: flex;
+    height: 50px;
+    margin: auto;
+    border-bottom: 1px solid gray;
+    width: 90%;
+    margin-left: 60px;
+}
+.first{
+    width: 50%;
+    /* border: 2px solid red; */
+}
+.first>ul{
+    display: flex;
+    /* justify-content: space-evenly; */
+    list-style: none;
+    margin-left: 50px;
+}
+ul>li{
+    margin-left:20px;
+}
+.second{
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 129px;
+}
+.second>button{
+    height: 30px;
+    margin: 11px 10px;
+    width: 100px;
+    /* margin-left: 50%; */
+    /* display: flex; */
+}
+.btn1{
+    background-color: rgb(192, 188, 188);
+    color: black;
+    border: none;
+    border-radius: 3px;
+    margin: 7px;
+    height: 35px ;
+    width: 120px;
+    font-size: 17px;
+}
+.btn2{
+    background-color: rgb(18, 136, 210);
+    height: 30px ;
+    color: white;
+    border: none;
+    margin: 7px;
+    border-radius: 3px;
+    height: 35px ;
+    width: 120px;
+    font-size: 17px;
+}
+.card-all{
+    height: 700px;
+    width: 88%;
+    margin-left: 180px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.card-text1{
+    font-size: 15px;
+}
+.card-text{
+    font-weight: 500;
+    font-size: 19px;
+}
+.card-left{
+    width: 45%;
+    height: 700px;
+    /* border: 2px solid black; */
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.card-body{
+    margin: 15px;
+}
+.card-img-top{
+    width: 100%;
+}
+.card-name{
+    display: flex;
+    justify-content: space-between;
+}
+.card-right{
+    /* border: 2px solid red; */
+    width: 30%;
+    /* margin: 11px 11px; */
+    margin-left: 100px;
+    margin-top: 12px;
+}
+.inputr{
+    border: none;
+    width: 200px;
+    border-bottom: 1px solid gray;
+}
+
+.inputr::placeholder {
+    text-align: left;
+    /* right: 120px; */
+}
+.form{
+    height: 100px;
+    position: relative;
+    display: none;
+    top: 50%;
+    left: 50%;
+}
+
+/* --------------------------- */
+.Navbar1 {
+    /* background-color: #46ACC2; */
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+    color: black;
+    margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+  }
+.Navbar {
+    /* background-color: #46ACC2; */
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+    color: black;
+    margin: 10px 10px;
+  }
+  
+  .Navbar__Link {
+    padding-right: 20px;
+    /* margin: 10px 10px; */
+  }
+  
+  .Navbar__Items {
+    display: flex;
+    /* margin-left: 140px; */
+    /* margin: 10px 10px; */
+  }
+  .pass{
+    font-size: 12px;
+    text-align: center;
+    color: #008A45;
+    background-color: #EFFFF4;
+  }
+  .abc{
+    display: flex;
+    justify-content: space-between;
+ }
+  
+  .Navbar__Items--right {
+    margin-left:auto;
+    /* margin-right: 120px; */
+  }
+  
+  
+  .Navbar__Link-toggle {
+    display: none;
+  }
+  .account{
+    display: block;
+ }
+  
+  @media only screen and (max-width: 768px) {
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+     .card-right{
+        display: none;
+     } 
+     .card-all{
+        width: 100%;
+        margin-left:0px;
+        /* border: 2px solid red; */
+        /* display: flex; */
+     }
+     .card-left{
+        width: 100%;
+     }
+     .text{
+        display: none;
+     }
+     .account{
+        display: none;
+     }
+     .text>input{
+        width: 300px;
+     }
+     .sign{
+        position: absolute !important;
+        top: 430px !important;
+        left: 0px !important;
+        position: fixed;
+        width: 100% !important;
+        height: 500px;
+     }
+     .login{
+        position: absolute !important;
+        top: 430px !important;
+        left: 0px !important;
+        position: fixed;
+        width: 100% !important;
+     }
+     .left{
+        width: 100% !important;
+     }
+    .btn-in{
+         width: 100%;
+     }
+     .abc{
+        /* display: flex;flex-direction: column; */
+     }
+     .right{
+        display: none;
+     }
+     
+     
+  .Navbar__Items {
+      display:none;
+    }
+      
+  .Navbar__Items--right {
+      margin-left:0;
+    }
+      
+  .Navbar__ToggleShow {
+      display: flex;
+    }
+      
+  .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+     } 
+  }
